@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Gamec0ck4l/FriendFinder/issues"
   },
-  "homepage": "https://github.com/Gamec0ck4l/FriendFinder#readme"
+  "homepage": "https://github.com/Gamec0ck4l/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
 }
