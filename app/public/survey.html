@@ -5,6 +5,7 @@
     <title>FriendFinder</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 <style>
@@ -172,3 +173,48 @@ label {
 </body>
 
 </html>
+
+<script type="text/javascript">
+
+$("#submit").on("click", function(event) {
+    event.preventDefault();
+
+    scoreArray = [];
+
+    // Here we grab the form elements
+    var newUser = {
+      name: $("#name").val().trim(),
+      photo: $("#photo").val().trim(),
+      scores: scoreArray,
+    };
+
+    
+
+    console.log(newUser);
+
+    $.post("/api/friends", newUser,
+      function(data) {
+
+        if (data) {
+          alert("User Added!");
+        }
+
+        // Clear the form when submitting
+        $("#name").val("");
+        $("#photo").val("");
+        $("#q1").val("");
+        $("#q2").val("");
+        $("#q3").val("");
+        $("#q4").val("");
+        $("#q5").val("");
+        $("#q6").val("");
+        $("#q7").val("");
+        $("#q8").val("");
+        $("#q9").val("");
+        $("#q10").val("");
+      });
+
+  });
+
+</script>
+
