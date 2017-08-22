@@ -1,7 +1,7 @@
 var friendsArray = [
     {
     "name": "Leonardo DiCaprio",
-    "photo": "http://cdn4.thr.com/sites/default/files/2014/11/leonardo_dicaprio.jpg",
+    "photo": "https://tinyurl.com/ybmdhb23",
     "scores": [
     "5",
     "1",
@@ -17,7 +17,7 @@ var friendsArray = [
     },
     {
     "name": "Dwayne Johnson",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Dwayne_Johnson_2%2C_2013.jpg",
+    "photo": "https://tinyurl.com/y9887ybj",
     "scores": [
     "4",
     "2",
@@ -33,7 +33,7 @@ var friendsArray = [
     },
     {
     "name": "Denzel Washington",
-    "photo": "https://i.pinimg.com/originals/2f/72/41/2f72417d5d6a580ab37a4d925c9e3a8d.jpg",
+    "photo": "https://tinyurl.com/ybuk2s8c",
     "scores": [
     "5",
     "2",
@@ -49,7 +49,7 @@ var friendsArray = [
     },
     {
     "name": "Rick Yune",
-    "photo": "http://liverampup.com/uploads/images/celebrity/rick%20yune.jpg",
+    "photo": "https://tinyurl.com/y9plpyq4",
     "scores": [
     "3",
     "3",
@@ -65,7 +65,7 @@ var friendsArray = [
     },
     {
     "name": "Jessica Alba",
-    "photo": "https://i.pinimg.com/736x/95/a5/55/95a5558c856dab05349e6c74b4327014--jessica-alba-hairstyles-short-hairstyles.jpg",
+    "photo": "https://tinyurl.com/y99er8zq",
     "scores": [
     "4",
     "3",
@@ -81,7 +81,7 @@ var friendsArray = [
     },
     {
     "name": "Charlize Theron",
-    "photo": "http://1.bp.blogspot.com/-YvWruOdpDGM/ULJuTHeQVBI/AAAAAAAAAIc/tgrpw-DZTq0/s1600/Charlize.jpg",
+    "photo": "https://tinyurl.com/ycrjg7l9",
     "scores": [
     "4",
     "4",
@@ -97,7 +97,7 @@ var friendsArray = [
     },
     {
     "name": "Freida Pinto",
-    "photo": "https://i.pinimg.com/originals/f8/6b/c1/f86bc16fc19c502a06908f81cee114f0.jpg",
+    "photo": "https://tinyurl.com/y8zbytrh",
     "scores": [
     "2",
     "4",
@@ -113,7 +113,7 @@ var friendsArray = [
     },
     {
     "name": "Halle Berry",
-    "photo": "http://cdn-img.instyle.com/sites/default/files/styles/276x276/public/images/2014/TRANSFORMATIONS/2007-2-halle-berry-567_0.jpg?itok=j8riTiL5",
+    "photo": "https://tinyurl.com/y8xub3xr",
     "scores": [
     "2",
     "4",
@@ -129,7 +129,7 @@ var friendsArray = [
     },
     {
     "name": "Ursula",
-    "photo": "https://vignette1.wikia.nocookie.net/disney/images/c/c5/Ursula_transparent.png/revision/latest?cb=20170426170016",
+    "photo": "https://tinyurl.com/ybfobwxz",
     "scores": [
     "3",
     "3",
@@ -145,7 +145,7 @@ var friendsArray = [
     },
     {
     "name": "Shrek",
-    "photo": "https://vignette4.wikia.nocookie.net/shrek/images/8/87/Shrek_fierce.jpg/revision/latest?cb=20100604223615",
+    "photo": "https://tinyurl.com/yccc85jr",
     "scores": [
     "4",
     "3",
