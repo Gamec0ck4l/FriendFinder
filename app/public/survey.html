@@ -103,7 +103,7 @@ label {
         <h3>Question 6</h3>
         <h4>It is often difficult for you to relate to other people’s feelings.</h6>
         <form class="form-inline">
-            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="q2">
+            <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="q6">
                 <option selected>Select an Option</option>
                 <option value="1">1 (Strongly Disagree)</option>
                 <option value="2">2</option>
@@ -176,29 +176,35 @@ label {
 
 <script type="text/javascript">
 
-$("#submit").on("click", function(event) {
-    event.preventDefault();
+    $("#submit").on("click", function(event) {
+      event.preventDefault();  
 
-    scoreArray = [];
+        var scoresArray = [];
 
-    // Here we grab the form elements
-    var newUser = {
-      name: $("#name").val().trim(),
-      photo: $("#photo").val().trim(),
-      scores: scoreArray,
-    };
+        var newUser = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            scores: scoresArray,
+        };
 
-    
+        scoresArray.push($("#q1").val().trim());
+        scoresArray.push($("#q2").val().trim());
+        scoresArray.push($("#q3").val().trim());
+        scoresArray.push($("#q4").val().trim());
+        scoresArray.push($("#q5").val().trim());
+        scoresArray.push($("#q6").val().trim());
+        scoresArray.push($("#q7").val().trim());
+        scoresArray.push($("#q8").val().trim());
+        scoresArray.push($("#q9").val().trim());
+        scoresArray.push($("#q10").val().trim());
 
-    console.log(newUser);
+        console.log(newUser);
 
     $.post("/api/friends", newUser,
-      function(data) {
+        function(data) {
 
-        if (data) {
-          alert("User Added!");
-        }
-
+        alert("New User Added!");
+        
         // Clear the form when submitting
         $("#name").val("");
         $("#photo").val("");
@@ -212,9 +218,11 @@ $("#submit").on("click", function(event) {
         $("#q8").val("");
         $("#q9").val("");
         $("#q10").val("");
-      });
+    });
 
-  });
+
+
+    
+});
 
 </script>
-
