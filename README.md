@@ -29,9 +29,9 @@ The server.js file uses the npm packages: express, body-parser, path.
     * Then will compare the difference between the user's scores against other users' scores, question by question.  Then will add up the differences to calculate the totalDifference.  
 
         * Example:
-            *User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-            *User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-            *Total Difference: 2 + 1 + 2 = 5
+            * User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+            * User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
+            * total Difference: 2 + 1 + 2 = 5
             
     * The closest match will be the user with the least amount of difference.
 
