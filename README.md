@@ -1,4 +1,4 @@
-# FriendFinder - Node adn Express Servers
+# FriendFinder - Node and Express Servers
 
 ## Compatibility based application
 
